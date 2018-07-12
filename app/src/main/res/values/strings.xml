@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">English for Kids</string>
+    <!-- <string name="app_name">Let\'s Learn English - ஆங்கிலம் கற்போம்</string>-->
+    <string name="numbers">Numbers - எண்கள்</string>
+    <string name="family_members">Family Members - குடும்ப உறுப்பினர்கள் </string>
+    <string name="colors">Colors - நிறங்கள்</string>
+    <string name="phrases">Phrases - சொற்தொடர்கள் </string>
+    <string name="animals">Animals - விலங்குகள் </string>
+    <string name="birds">Birds - பறவைகள் </string>
+    <string name="fruits">Fruits - பழங்கள் </string>
+    <string name="vegetables">Vegetables - மரக்கறிகள் </string>
+    <string name="body_parts">Body Parts - உடல் அங்கங்கள் </string>
+
+</resources>
+
+
+
+

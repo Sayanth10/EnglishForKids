@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Numbers activity theme. -->
+    <style name="numbersTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/numbers</item>
+        <item name="colorPrimaryDark">@color/numbersDark</item>
+        <item name="colorAccent">@color/numbers</item>
+    </style>
+
+    <!-- Colors activity theme. -->
+    <style name="colorsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colors</item>
+        <item name="colorPrimaryDark">@color/colorsDark</item>
+        <item name="colorAccent">@color/colors</item>
+    </style>
+
+    <!-- Family activity theme. -->
+    <style name="familyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/family</item>
+        <item name="colorPrimaryDark">@color/familyDark</item>
+        <item name="colorAccent">@color/family</item>
+    </style>
+
+    <!-- Phrase activity theme. -->
+    <style name="phrasesTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/phrases</item>
+        <item name="colorPrimaryDark">@color/phrasesDark</item>
+        <item name="colorAccent">@color/phrases</item>
+    </style>
+
+    <!-- Animals activity theme. -->
+    <style name="AnimalsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/animals</item>
+        <item name="colorPrimaryDark">@color/animalsDark</item>
+        <item name="colorAccent">@color/animalsbg</item>
+    </style>
+
+    <!-- Birds activity theme. -->
+    <style name="BirdsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/birds</item>
+        <item name="colorPrimaryDark">@color/birdsDark</item>
+        <item name="colorAccent">@color/birdsbg</item>
+    </style>
+
+    <!-- Fruits activity theme. -->
+    <style name="FruitsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/fruits</item>
+        <item name="colorPrimaryDark">@color/fruitsDark</item>
+        <item name="colorAccent">@color/fruitsbg</item>
+    </style>
+
+    <!-- Vegetable activity theme. -->
+    <style name="VegetableTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/vegetables</item>
+        <item name="colorPrimaryDark">@color/vegetablesDark</item>
+        <item name="colorAccent">@color/vegetablesDark</item>
+    </style>
+
+    <!-- BodyParts activity theme. -->
+    <style name="BodyPartsTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/bodyParts</item>
+        <item name="colorPrimaryDark">@color/bodyPartsDark</item>
+        <item name="colorAccent">@color/bodyPartsbg</item>
+    </style>
+
+    <style name="CategoryStyle">
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

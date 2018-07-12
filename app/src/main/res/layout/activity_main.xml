@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/numbers"
+            style="@style/CategoryStyle"
+            android:layout_width="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/numbers"
+            android:text="@string/numbers"
+            app:layout_constraintBottom_toTopOf="@+id/colors"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/number_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/colors"
+            style="@style/CategoryStyle"
+            android:layout_width="0dp"
+            android:background="@color/colors"
+            android:text="@string/colors"
+            app:layout_constraintBottom_toTopOf="@+id/family"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/color_image"
+            app:layout_constraintTop_toBottomOf="@+id/numbers" />
+
+        <TextView
+            android:id="@+id/family"
+            style="@style/CategoryStyle"
+            android:layout_width="0dp"
+            android:background="@color/family"
+            android:text="@string/family_members"
+            app:layout_constraintBottom_toTopOf="@+id/animals"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/family_image"
+            app:layout_constraintTop_toBottomOf="@+id/colors" />
+
+        <TextView
+            android:id="@+id/phrases"
+            style="@style/CategoryStyle"
+            android:layout_width="0dp"
+            android:background="@color/phrases"
+            android:text="@string/phrases"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/phrase_image"
+            app:layout_constraintTop_toBottomOf="@+id/body_parts" />
+
+        <ImageView
+            android:id="@+id/number_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/numberbg"
+            app:layout_constraintBottom_toTopOf="@+id/color_image"
+            app:layout_constraintEnd_toStartOf="@+id/numbers"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/numbers_category" />
+
+        <ImageView
+            android:id="@+id/color_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:background="@color/colorbg"
+            app:layout_constraintBottom_toTopOf="@+id/family_image"
+            app:layout_constraintEnd_toStartOf="@+id/colors"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/number_image"
+            app:srcCompat="@drawable/color_category" />
+
+        <ImageView
+            android:id="@+id/family_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:background="@color/familybg"
+            app:layout_constraintBottom_toTopOf="@+id/animals_image"
+            app:layout_constraintEnd_toStartOf="@+id/family"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/color_image"
+            app:srcCompat="@drawable/family_category" />
+
+        <ImageView
+            android:id="@+id/phrase_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:background="@color/phrasesbg"
+            app:layout_constraintEnd_toStartOf="@+id/phrases"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bodyparts_image"
+            app:srcCompat="@drawable/phrout" />
+
+        <TextView
+            android:id="@+id/animals"
+
+            style="@style/CategoryStyle"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+
+            android:background="@color/animals"
+            android:text="@string/animals"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/animals_image"
+            app:layout_constraintTop_toBottomOf="@+id/family" />
+
+        <TextView
+            android:id="@+id/birds"
+
+
+            style="@style/CategoryStyle"
+            android:layout_width="0dp"
+            android:background="@color/birds"
+            android:text="@string/birds"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/birds_image"
+            app:layout_constraintTop_toBottomOf="@+id/animals" />
+
+        <TextView
+            android:id="@+id/fruits"
+            style="@style/CategoryStyle"
+
+            android:layout_width="0dp"
+            android:background="@color/fruits"
+
+            android:text="@string/fruits"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fruits_image"
+            app:layout_constraintTop_toBottomOf="@+id/birds" />
+
+        <TextView
+            android:id="@+id/vegetables"
+
+            style="@style/CategoryStyle"
+
+            android:layout_width="0dp"
+            android:background="@color/vegetables"
+            android:text="@string/vegetables"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/vegetables_image"
+            app:layout_constraintTop_toBottomOf="@+id/fruits" />
+
+        <TextView
+            android:id="@+id/body_parts"
+
+            style="@style/CategoryStyle"
+
+            android:layout_width="0dp"
+            android:background="@color/bodyParts"
+            android:text="@string/body_parts"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/bodyparts_image"
+            app:layout_constraintTop_toBottomOf="@+id/vegetables" />
+
+        <ImageView
+            android:id="@+id/animals_image"
+
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/family_image"
+            app:srcCompat="@drawable/animal_category" />
+
+        <ImageView
+            android:id="@+id/birds_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/animals_image"
+            app:srcCompat="@drawable/birds_cat" />
+
+        <ImageView
+            android:id="@+id/fruits_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/birds_image"
+            app:srcCompat="@drawable/fruits_cat" />
+
+        <ImageView
+            android:id="@+id/vegetables_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fruits_image"
+            app:srcCompat="@drawable/veg_cat" />
+
+        <ImageView
+            android:id="@+id/bodyparts_image"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vegetables_image"
+            app:srcCompat="@drawable/body_cat" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
